@@ -1,8 +1,12 @@
 from odoo import api, models, fields
+
+
 class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
     density = fields.Float('Density')
+
+
 class PurchaseOrderLine(models.Model):
     _inherit = 'purchase.order.line'
 

@@ -5,7 +5,7 @@
     'summary': 'Converts product quantity from L to g based on product density',
     'depends': ['purchase', 'stock'],
     'data': [
-        'views/product_template_views.xml'
+        'views/product_template_views.xml',
         'views/purchase_order_line.xml'
              ],
     'installable': True,
